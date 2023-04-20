@@ -1,0 +1,97 @@
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+.container .heading h1{
+    font-weight: 300;
+}
+.container_box{
+    /* background-color: aqua; */
+    width: 100%;
+}
+.container_box .name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+    
+}
+.name .id label{
+    font-size: 20px;
+    margin: 10px;
+}
+.name .id input{
+    width: 100px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #B4B4B4;
+}
+.container_box .name .fname label{
+    font-size: 25px;
+    margin: 10px;
+}
+.container_box .name .fname input{
+    height: 25px;
+    width: 230px;
+    padding: 9px;
+    background-color: #B4B4B4;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.container_box .name .lname label{
+    font-size: 25px;
+    margin: 10px;
+}
+.container_box .name .lname input{
+    height: 25px;
+    width: 300px;
+    padding: 9px;
+    background-color: #B4B4B4;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.container_box .name select{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    background-color: #B4B4B4;
+}
+.crime label{
+    font-size: 25px;
+    margin: 10px;
+}
+.crime input{
+    width: 69%;
+    height: 25px;
+    padding: 9px;
+    background-color: #B4B4B4;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 100px;
+    display: grid;
+    place-content: center;
+}
+
+.btn button{
+    width: 250px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #020D23;
+    color: aliceblue;
+    text-align: center;
+    font-size: 17px;
+}

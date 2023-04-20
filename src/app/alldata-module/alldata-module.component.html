@@ -1,0 +1,26 @@
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>PID</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Age</th>
+        <th>Crime Committed</th>
+        <th>Joining_Date</th>
+        <th>Relieving_Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let data of pinfo">
+        <th>{{data.PID}}</th>
+        <td>{{data.Name}}</td>
+        <td>{{data.Gender}}</td>
+        <td>{{data.Age}}</td>
+        <td>{{data.Crime_Committed}}</td>
+        <td>{{data.Joining_Date}}</td>
+        <td>{{data.Relieving_Date}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

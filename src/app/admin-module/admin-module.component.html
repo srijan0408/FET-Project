@@ -1,0 +1,45 @@
+<body>
+    <div class="container">
+        <div class="left_con">
+            <div class="heading">
+                <h1> Admin Portal </h1>
+                <div style="background-color: black; width: 100%; height: 2px;margin-top: 10px;" class="extra1"><img src="" alt=""></div><br>
+            </div>
+            <!-- <div style="background-color: black; width: 100%; height: 3px;" class="extra1"><img src="" alt=""></div><br> -->
+
+            <div class="router_section">
+                <div class="con_box">
+                    <router-outlet></router-outlet>
+                </div>
+                
+            </div>
+        </div>
+        <div class="right_con">
+            <div class="right_top">
+                <div class="right_logo">
+                    <img src="assets\temp_logo1.png" alt="Logo1">
+                </div>
+                <div class="nav_btn">
+                    <div class="btn btn1">
+                        <a routerLink="/admin/add" class="active"><button>Add Records</button></a>
+                    </div>
+                    <div class="btn btn1">
+                        <a routerLink="/admin/delete"><button>Delete Records</button></a>
+                    </div>
+                    <div class="btn btn1">
+                        <a routerLink="/admin/update"><button>Update Records</button></a>
+                    </div>
+                    <div class="btn btn1">
+                        <a routerLink="/admin/alldata"><button>All Records</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right_bottom">
+                <div class="btn">
+                    <a routerLink=""><button>Logout</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
